@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+#naviUrl a{text-align:center;text-decoration:none;}
+#naviUrl a:visited {color:rgb(96,57,26);text-decoration:none;}
+#naviUrl a:link {color:rgb(96,57,26);}
+#naviUrl a:hover {color:#3CF;}
+
+
+/*About*/
+#menuBg {background:url(../img/about/menu_bg1.png) no-repeat center; height:42px; text-align:center; color:rgb(96,57,26); font-weight:bold;}
+#menu {height:42px; text-align:center; color:rgb(96,57,26);}
