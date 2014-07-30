@@ -1,12 +1,48 @@
 @charset "utf-8";
 /* CSS Document */
+/*Font From Local*/
+@font-face { 
+     font-family:Yahei Consolas Hybrid; 
+     src: local('Windows'), url(../font/Yahei Consolas Hybrid.ttf) format('ttf');
+}
+@font-face { 
+     font-family:Veron Bold; 
+     src: local('Windows'), url(../font/Veron Bold.otf) format('otf');
+}
 
+@font-face { 
+     font-family:TschichLight; 
+     src: local('Windows'), url(../font/TschichLight.ttf) format('ttf');
+}
+
+/*navi bar*/
 #naviUrl a{text-align:center;text-decoration:none;}
 #naviUrl a:visited {color:rgb(96,57,26);text-decoration:none;}
 #naviUrl a:link {color:rgb(96,57,26);}
 #naviUrl a:hover {color:#3CF;}
 
+/*news*/
+#shadow {
+	-moz-box-shadow: 2px 2px 2px #000;
+    -webkit-box-shadow: 2px 2px 3px #000;
+    box-shadow: 2px 2px 3px #000;
+    /* For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#000000')";
+    /* For IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+	border-radius:0px 0px 15px 15px; background-color:#FFF; height:430px; width:700px;
+	font-family:Yahei Consolas Hybrid; margin-bottom:20px}
 
 /*About*/
-#menuBg {background:url(../img/about/menu_bg1.png) no-repeat center; height:42px; text-align:center; color:rgb(96,57,26); font-weight:bold;}
-#menu {height:42px; text-align:center; color:rgb(96,57,26);}
+#menuBg {background:url(../img/about/menu_bg1.png) no-repeat center; height:42px; text-align:center; color:rgb(96,57,26); font-weight:bold; font-family:Yahei Consolas Hybrid;}
+#menu {height:42px; text-align:center; color:rgb(96,57,26); font-family:Yahei Consolas Hybrid;}
+
+/*show case*/
+#picUrl { border:none}
+
+/*article*/
+#article{font-family:Yahei Consolas Hybrid;}
+
+/*title*/
+#title{font-family:Veron Bold;}
+#subtitle{font-family:TschichLight}
