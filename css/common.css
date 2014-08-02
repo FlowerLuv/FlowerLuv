@@ -14,6 +14,15 @@
      font-family:TschichLight; 
      src: local('Windows'), url(../font/TschichLight.ttf) format('ttf');
 }
+@font-face { 
+  font-family:Yahei Consolas Hybrid; 
+  src: url('../font/Yahei Consolas Hybrid.ttf'); 
+} 
+
+@font-face { 
+  font-family:Veron Bold; 
+  src: url('../font/Veron Bold.otf'); 
+} 
 
 /*navi bar*/
 #naviUrl a{text-align:center;text-decoration:none;}
